@@ -1,0 +1,10 @@
+cards:
+  - title: Sac à dos
+    effect: |
+      Ajoute +5 à votre capacité d'**Inventaire**
+
+      Le total des bonus fournis par vos objets de type "Sac" ne peut excéder votre total de **Force**.
+    lore:
+    icon: icons/delapouite/originals/svg/000000/transparent/backpack.svg
+    cost: 0
+    types: ['Objet', 'Sac']

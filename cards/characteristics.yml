@@ -1,0 +1,91 @@
+cards:
+
+  - title: Force
+    effect: |
+      Ajoute +1 à votre **Force**
+      Ajoute +1 à votre capacité d'**Inventaire**
+    lore:
+    icon: icons/delapouite/originals/svg/000000/transparent/biceps.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Force supérieure
+    effect: |
+      Ajoute +5 à votre **Force**
+      Ajoute +5 à la capacité de votre **Inventaire**
+    lore:
+    icon: icons/delapouite/originals/svg/000000/transparent/weight-lifting-up.svg
+    cost: 10
+    types: [ Caractéristique ]
+
+  - title: Intelligence
+    effect: |
+      Ajoute +1 à votre **Intelligence**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/brain.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Intelligence supérieure
+    effect: |
+      Ajoute +5 à votre **Intelligence**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/brainstorm.svg
+    cost: 10
+    types: [ Caractéristique ]
+
+  - title: Sagesse
+    effect: |
+      Ajoute +1 à votre **Sagesse**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/owl.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Sagesse supérieure
+    effect: |
+      Ajoute +5 à votre **Sagesse**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/meditation.svg
+    cost: 10
+    types: [ Caractéristique ]
+
+  - title: Agilité
+    effect: |
+      Ajoute +1 à votre **Agilité**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/run.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Agilité supérieure
+    effect: |
+      Ajoute +5 à votre **Agilité**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/sprint.svg
+    cost: 10
+    types: [ Caractéristique ]
+
+  - title: Charisme
+    effect: |
+      Ajoute +1 à votre **Charisme**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/aura.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Charisme supérieure
+    effect: |
+      Ajoute +5 à votre **Charisme**
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/beams-aura.svg
+    cost: 10
+    types: [ Caractéristique ]
+
+  - title: Touche à tout
+    effect: |
+      Ajoute +1 à toutes vos caractéristiques
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/skeleton-inside.svg
+    cost: 10
+    types: [ Caractéristique ]

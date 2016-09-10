@@ -1,0 +1,12 @@
+cards:
+  - title: Contre attaque
+    effect: |
+      Vous pouvez activer cette carte lors d'une attaque d'un adversaire au corps à corps sur votre personnage.
+
+      Vous bénéficiez d'une attaque au corps à corps immédiate.
+
+      Temps de recharge: 5 rounds
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/sabers-choc.svg
+    cost: 5
+    types: ['Technique', 'Corps à corps']

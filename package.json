@@ -1,0 +1,17 @@
+{
+  "name": "orpcg",
+  "version": "0.0.0",
+  "description": "A open role playing card game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Petit <william.petit@ptitcloud.fr>",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "glob": "^7.0.6",
+    "js-yaml": "^3.6.1",
+    "pdfkit": "^0.8.0",
+    "xml2js": "^0.4.17"
+  }
+}
