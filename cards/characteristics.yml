@@ -82,6 +82,24 @@ cards:
     cost: 10
     types: [ Caractéristique ]
 
+  - title: Constitution
+    effect: |
+      Ajoute +1 à votre **Constitution**
+      Ajoute +2 à votre total de PV
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/dna1.svg
+    cost: 2
+    types: [ Caractéristique ]
+
+  - title: Constitution supérieure
+    effect: |
+      Ajoute +5 à votre **Constitution**
+      Ajoute +10 à votre total de PV
+    lore:
+    icon: icons/lorc/originals/svg/000000/transparent/dna2.svg
+    cost: 10
+    types: [ Caractéristique ]
+
   - title: Touche à tout
     effect: |
       Ajoute +1 à toutes vos caractéristiques

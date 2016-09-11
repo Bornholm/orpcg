@@ -40,26 +40,36 @@ Les caractéristiques représentent les capacités physiques et mentales, innée
 
 Tous les personnages démarrent avec leur caractéristiques à 0.
 
+
+#### Caractéristiques principales
+
 Les valeurs de caractéristique d'un personnage sont définies par les cartes _Caractéristique_ présentes dans sont deck et/ou les cartes comportant des modificateurs de caractéristique.
 
 **Sauf si indiqué le contraire, les cartes de caractéristiques sont cumulatives.**
 
-#### Force
+##### Force
 
 Influe sur le nombre d'objets transportables et les jets associés à cette caractéristique.
 
-#### Intelligence
-#### Charisme
-#### Sagesse
-#### Constitution
+##### Intelligence
+##### Charisme
+##### Sagesse
+##### Constitution
 
 Influe sur le nombre de points de vie total du personnage.
 
-#### Agilité
+##### Agilité
 
 Influe sur l'ordre d'exécution des rounds et les jets associés à cette caractéristique.
 
-### Inventaire
+#### Caractéristiques dérivées
+
+##### Initiative
+
+Intelligence + Agilité
+
+##### Points de vie (PV)
+##### Inventaire
 
 L'inventaire d'un personnage correspond aux objets que celui ci transporte avec lui.
 
@@ -94,17 +104,18 @@ Soit A,B,C,D des monstres gérés par le maitre du jeu et 1,2,3 des personnages 
 
 Règles pour les affrontements:
 
-- Les armes ou techniques de portée 0 (corps à corps) ne peuvent cibler des adversaires uniquement sur une ligne adjacente (Ex: 1 et D)
-- Si un allié ou un adversaire encombre la ligne de vue vers la cible, celle ci est considérée comme hors d'atteinte (3 peut cibler A ou D avec une arme ou une technique de portée 1 ou plus, mais ne peut pas cibler B ou C)
+- Les armes ou techniques de portée 0 (corps à corps) ne peuvent cibler des adversaires que sur une ligne adjacente (Ex: 1 et D)
+- Si un allié ou un adversaire encombre la ligne de vue vers la cible, celle ci est considérée comme hors d'atteinte (Ex: 3 peut cibler A ou D avec une arme ou une technique de portée 1 ou plus, mais ne peut pas cibler B ou C, quelle que soit sa portée)
+- Aucune ligne ne peut être "vide". Au moment où une ligne est vidée parce que le dernier personnage/monstre qui la compose est mis "hors combat", les lignes suivantes se décalent d'un cran pour remplir le vide créé (Ex: Si D venait à être mis hors de combat, C, B, A deviendraient la ligne de front)
 
 ### Déroulement d'un combat
 
-1. Mise en place de la formation (sauf si le contexte/maitre du jeu impose une formation au joueurs)
-2. Dans l'ordre d'initiative (ordre décroissant de l'agilité + intelligence), activation des monstres et des joueurs
-3. Chaque personnage peut enclencher UNE action par round ou passer son tour:
+1. Mise en place de la formation (sauf si le contexte/maitre du jeu impose une formation au joueurs/monstres)
+2. Dans l'ordre d'initiative décroissant, activation des monstres et des joueurs. Chaque personnage peut enclencher UNE action par round ou passer son tour:
   - Utiliser une carte de type "Technique"
   - Attaquer un adversaire
-  - Echanger sa position avec un allié adjacent dans la formation. Attention, cette action consomme également l'action de l'allié ! L'allié en question ne doit donc pas avoir encore utilisé son action dans ce round.
+  - Echanger sa position avec un allié adjacent (diagonale comprise) dans la formation. Attention, cette action consomme également l'action de l'allié ! L'allié en question ne doit donc pas avoir encore utilisé son action dans ce round.
+  - Passer sur une ligne adjacente sur un emplacement libre
 
 ## Inspirations
 
